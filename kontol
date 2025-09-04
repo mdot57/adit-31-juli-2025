@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Halaman register XI-E
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Register</h1>
+        <div class ="form-container">
+            <form id ="register-form">
+               <input type="text" id="nama"
+               placeholder="Masukan nama" required/>
+               <input type="email" id="email"
+               placholder="masukan email" required/>
+               <input type="masukan password" required/>
+               
+               <label> Jenis kelamin :</label>
+               <div class="radio grup">
+              <input type="radio" name="gender" id="laki-laki"
+              value="laki-laki" require/>
+              <label for="laki laki">laki-laki</label>
+              <input type="radio" name="gender" id="wanita"
+              value="wanita">wanita required/>
+              <label for="wanita">wanita</label>
+        </div>
+        <input type="date" id="tanggal" required/>
+        <div class="checkbox-group">
+            <input type="checkbox" id="setuju" required/>
+            <label for="setuju">anda menyetujui syarat dan kententuan</label>
+        </div>
+        <button type ="submit">buat akun</button>
+        
